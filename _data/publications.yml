@@ -1,15 +1,27 @@
-{% assign publications = site.data.publications | sort: "year" | reverse %}
-{% for publication in publications %}
+- year: 2026
+  title: "Microbial Hydrolysates as Amino Acid Source in Cell Culture Media for Cellular Agriculture"
+  authors: "Jelle C. Hoek, Jean-Marc Daran, Marieke E. Klijn, Marcel A. Vieira-Lara"
+  journal: "Biotechnology and Bioengineering"
+  doi: ""
+  featured: true
 
----
-title: "Microbial Hydrolysates as Amino Acid Source in Cell Culture Media for Cellular Agriculture"
-authors:
-  - Jelle C. Hoek
-  - Jean-Marc Daran
-  - Marieke E. Klijn
-  - Marcel A. Vieira-Lara
-journal: Biotechnology and Bioengineering
-year: 2026
-doi:
-featured: true
----
+- year: 2026
+  title: "Mitochondrial localization of key NAD+-dependent dehydrogenases explains the exceptionally high biomass yield on ethanol of the yeast Cyberlindnera jadinii"
+  authors: "Marieke Warmerdam, Yared O. Pijman, Marc P. Pedersen, Koen Wattel, Marcel A. Vieira-Lara, Jack T. Pronk"
+  journal: "Applied and Environmental Microbiology"
+  doi: ""
+  featured: true
+
+- year: 2024
+  title: "Quantitative physiology and biomass composition of Cyberlindnera jadinii in ethanol-grown cultures"
+  authors: "Marcel A. Vieira-Lara, Marieke Warmerdam, Erik A. F. de Hulster, Marcel van den Broek, Jean-Marc Daran, Jack T. Pronk"
+  journal: "Biotechnology for Biofuels and Bioproducts"
+  doi: ""
+  featured: true
+
+- year: 2024
+  title: "Specific growth rates and growth stoichiometries of Saccharomycotina yeasts on ethanol as sole carbon and energy substrate"
+  authors: "Marieke Warmerdam, Marcel A. Vieira-Lara, Robert Mans, Jean-Marc Daran, Jack T. Pronk"
+  journal: "FEMS Yeast Research"
+  doi: ""
+  featured: true
