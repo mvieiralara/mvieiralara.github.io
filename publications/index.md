@@ -16,8 +16,7 @@ description: Publications from the BioEfficiency Lab.
   </header>
 
   <div class="publication-list">
-    {% assign publications = site.data.publications | sort: "year" | reverse %}
-    {% for publication in publications %}
+   {% for publication in site.data.publications %}
       <article>
         <span class="year">{{ publication.year }} · {{ publication.journal }}</span>
         <h3>{{ publication.title }}</h3>
