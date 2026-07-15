@@ -18,9 +18,9 @@ description: BioEfficiency Lab at TU Delft.
   </header>
 
   <div class="team-photo-hover image main" aria-label="BioEfficiency Lab team photos">
-    <img src="{{ '/images/team-photo.jpg' | relative_url }}"
+    <img src="{{ '/images/team_photo.jpg' | relative_url }}"
          alt="BioEfficiency Lab team" class="photo-main" />
-    <img src="{{ '/images/team-photo2.jpg' | relative_url }}"
+    <img src="{{ '/images/team_photo2.jpg' | relative_url }}"
          alt="BioEfficiency Lab team, alternate photo" class="photo-hover" />
   </div>
 
