@@ -1,3 +1,6 @@
+{% assign publications = site.data.publications | sort: "year" | reverse %}
+{% for publication in publications %}
+
 ---
 title: "Microbial Hydrolysates as Amino Acid Source in Cell Culture Media for Cellular Agriculture"
 authors:
