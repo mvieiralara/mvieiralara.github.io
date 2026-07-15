@@ -41,10 +41,12 @@
   padding-top: 1rem;
 }
 
-.team-photo-hover {
-  position: relative;
-  overflow: hidden;
-  background: #111;
+.team-photo-hover img {
+  display: block;
+  width: 100%;
+  transition:
+    opacity 1.8s ease-in-out,
+    transform 2.0s ease-in-out;
 }
 
 .team-photo-hover img {
