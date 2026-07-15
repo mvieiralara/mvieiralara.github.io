@@ -1,0 +1,39 @@
+- number: "01"
+  title: Quantitative Metabolism
+  icon: fa-chart-line
+  description: >-
+    We quantify how cells distribute matter, energy and catalytic capacity.
+    Through controlled cultivation, stoichiometric analysis, multi-omics and
+    predictive modelling, we identify the principles behind cellular rates,
+    yields and trade-offs.
+  topics:
+    - Quantitative physiology
+    - Metabolic fluxes and stoichiometry
+    - Rate–yield trade-offs
+    - Cross-scale predictive models
+
+- number: "02"
+  title: Bioenergetics
+  icon: fa-bolt
+  description: >-
+    We investigate how living systems capture, conserve and spend energy.
+    Our work spans respiratory chains, ATP synthase, mitochondrial physiology
+    and ATP economy in microbial and mammalian cells.
+  topics:
+    - ATP synthase and P/O ratios
+    - Respiratory-chain function
+    - ATP maintenance and allocation
+    - Energetic efficiency
+
+- number: "03"
+  title: Bioengineering
+  icon: fa-dna
+  description: >-
+    We translate quantitative understanding into more efficient cells and
+    processes. We engineer metabolism, evaluate sustainable feedstocks and
+    develop microbial and mammalian production platforms.
+  topics:
+    - Metabolic and mitochondrial engineering
+    - Microbial and mammalian cell factories
+    - Alternative feedstocks
+    - Bioprocess design and control

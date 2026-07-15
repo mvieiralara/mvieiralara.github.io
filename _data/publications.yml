@@ -1,0 +1,13 @@
+- year: 2026
+  title: Add your newest publication title here
+  authors: Marcel Vieira-Lara et al.
+  journal: Journal name
+  doi:
+  featured: true
+
+- year: 2025
+  title: Add a second publication title here
+  authors: Marcel Vieira-Lara et al.
+  journal: Journal name
+  doi:
+  featured: false

@@ -1,0 +1,54 @@
+- name: Marcel Vieira-Lara
+  role: Assistant Professor
+  category: Principal Investigator
+  photo: photo1.jpg
+  email: M.A.VieiraLara@tudelft.nl
+  description: Bioenergetics, quantitative physiology and metabolic engineering.
+
+- name: Marc Pedersen
+  role: Postdoctoral Researcher
+  category: Postdoctoral Researchers
+  photo: photo2.jpg
+  description: Single-cell protein production from ethanol using Cyberlindnera jadinii.
+
+- name: Marieke Warmerdam
+  role: PhD Candidate
+  category: PhD Candidates
+  photo: photo3.jpg
+  description: Ethanol-fuelled yeast biotechnology.
+
+- name: Gabriela van Leersum
+  role: PhD Candidate
+  category: PhD Candidates
+  photo: photo4.jpg
+  description: Energy metabolism in acetate-grown yeast.
+
+- name: Jelle Hoek
+  role: PhD Candidate
+  category: PhD Candidates
+  photo: photo5.jpg
+  description: Microbial raw materials for cellular agriculture.
+
+- name: Malte Marquardt
+  role: PhD Candidate
+  category: PhD Candidates
+  photo: photo6.jpg
+  description: Engineering yeast mitochondrial DNA for energetic efficiency.
+
+- name: Tom Koelmans
+  role: PhD Candidate
+  category: PhD Candidates
+  photo: photo7.jpg
+  description: Off-gas spectroscopy for physiological and process biomarkers.
+
+- name: Marcus Young
+  role: PhD Candidate
+  category: PhD Candidates
+  photo: photo8.jpg
+  description: Oxygen-dependent mammalian-cell metabolism and ATP economy.
+
+- name: Nienke Franken
+  role: MSc Student
+  category: MSc Students
+  photo: photo9.jpg
+  description: Rate–yield trade-offs in respiration.

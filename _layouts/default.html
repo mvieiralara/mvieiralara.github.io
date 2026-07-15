@@ -1,0 +1,66 @@
+<!DOCTYPE HTML>
+<!--
+  BioEfficiency Lab website adapted from Massively by HTML5 UP.
+  html5up.net | @ajlkn
+  Free for personal and commercial use under the CCA 3.0 license.
+-->
+<html lang="en">
+<head>
+  <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <meta name="description" content="{{ page.description | default: site.description | escape }}" />
+
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}" />
+  <link rel="stylesheet" href="{{ '/assets/css/lab.css' | relative_url }}" />
+  <noscript>
+    <link rel="stylesheet" href="{{ '/assets/css/noscript.css' | relative_url }}" />
+  </noscript>
+</head>
+
+<body class="is-preload">
+  <div id="wrapper"{% if page.nav == "home" %} class="fade-in"{% endif %}>
+
+    {% if page.nav == "home" %}
+      <div id="intro">
+        <h1>BioEfficiency<br />Lab</h1>
+        <p>
+          Bioefficiency is the quantitative study of how living systems acquire,
+          convert, allocate and utilize biological resources across biological scales.
+        </p>
+        <p class="intro-affiliation">
+          Quantitative metabolism · Bioenergetics · Bioengineering<br />
+          Industrial Microbiology, TU Delft
+        </p>
+        <ul class="actions">
+          <li>
+            <a href="#header" class="button icon solid solo fa-arrow-down scrolly">
+              Explore
+            </a>
+          </li>
+        </ul>
+      </div>
+    {% endif %}
+
+    <header id="header">
+      <a href="{{ '/' | relative_url }}" class="logo">BioEfficiency Lab</a>
+    </header>
+
+    {% include nav.html %}
+
+    <div id="main">
+      {{ content }}
+    </div>
+
+    {% include footer.html %}
+  </div>
+
+  <script src="{{ '/assets/js/jquery.min.js' | relative_url }}"></script>
+  <script src="{{ '/assets/js/jquery.scrollex.min.js' | relative_url }}"></script>
+  <script src="{{ '/assets/js/jquery.scrolly.min.js' | relative_url }}"></script>
+  <script src="{{ '/assets/js/browser.min.js' | relative_url }}"></script>
+  <script src="{{ '/assets/js/breakpoints.min.js' | relative_url }}"></script>
+  <script src="{{ '/assets/js/util.js' | relative_url }}"></script>
+  <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
+</body>
+</html>

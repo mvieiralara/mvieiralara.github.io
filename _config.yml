@@ -1,13 +1,24 @@
-title: Your awesome title
-author: GitHub User
-email: your-email@domain.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+title: BioEfficiency Lab
+description: >-
+  The BioEfficiency Lab at TU Delft studies quantitative metabolism,
+  bioenergetics and bioengineering across biological scales.
+url: ""
+baseurl: ""
 
-# social links
-twitter_username: your-twitter-handle # DO NOT include the @ character, or else the build will fail!
-github_username:  your-github-handle # DO NOT include the @ character, or else the build will fail!
+markdown: kramdown
+permalink: pretty
+timezone: Europe/Amsterdam
 
-show_excerpts: true # set to false to remove excerpts on the homepage
+author:
+  name: Marcel Vieira-Lara
+  email: M.A.VieiraLara@tudelft.nl
+
+social:
+  scholar: https://scholar.google.com/citations?hl=en&user=kvnKhYoAAAAJ
+  linkedin: https://www.linkedin.com/in/marcel-vieira-lara
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor

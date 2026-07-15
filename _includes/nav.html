@@ -1,0 +1,23 @@
+<nav id="nav">
+  <ul class="links">
+    {% for item in site.data.navigation %}
+      <li{% if page.nav == item.key %} class="active"{% endif %}>
+        <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+  <ul class="icons">
+    <li>
+      <a href="{{ site.social.scholar }}" class="icon solid fa-graduation-cap"
+         target="_blank" rel="noopener">
+        <span class="label">Google Scholar</span>
+      </a>
+    </li>
+    <li>
+      <a href="{{ site.social.linkedin }}" class="icon brands fa-linkedin"
+         target="_blank" rel="noopener">
+        <span class="label">LinkedIn</span>
+      </a>
+    </li>
+  </ul>
+</nav>
