@@ -7,8 +7,20 @@
   --lab-border: #dfe5e8;
 }
 
+/* Override all-caps on all headings — keep Source Sans Pro but normal case */
+h1, h2, h3, h4, h5, h6 {
+  text-transform: none;
+  letter-spacing: 0.02em;
+}
+
+/* Header logo: normal case */
+#header .logo {
+  text-transform: none;
+  letter-spacing: 0.02em;
+}
+
 #intro h1 {
-  letter-spacing: 0.045em;
+  letter-spacing: 0.02em;
 }
 
 #intro p {
