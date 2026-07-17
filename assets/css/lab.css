@@ -29,12 +29,46 @@ h1, h2, h3, h4, h5, h6 {
   margin-right: auto;
 }
 
+.intro-group {
+  margin-top: -1rem;
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-size: 0.85rem;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
 .intro-affiliation {
   font-size: 0.8rem;
   letter-spacing: 0.12em;
   text-transform: uppercase;
   font-style: normal;
   opacity: 0.85;
+}
+
+.intro-department {
+  margin-top: -1.25rem;
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-size: 0.72rem;
+  font-style: normal;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  opacity: 0.8;
+}
+
+#intro .intro-tu-delft-logo {
+  display: inline-block;
+  border-bottom: 0;
+  line-height: 0;
+}
+
+#intro .intro-tu-delft-logo img {
+  display: block;
+  width: 13rem;
+  max-width: 55vw;
+  height: auto;
+  margin: 0 auto;
 }
 
 #nav {
