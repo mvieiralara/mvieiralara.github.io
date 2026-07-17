@@ -15,7 +15,7 @@ description: Members of the BioEfficiency Lab.
     </p>
   </header>
 
-  {% assign categories = "Principal Investigator|Postdoctoral Researchers|PhD Candidates|MSc Students" | split: "|" %}
+  {% assign categories = "Principal Investigator|Postdoctoral Researchers|PhD Candidates|MSc Students|Technicians" | split: "|" %}
   {% for category in categories %}
     <h2 class="team-category">{{ category }}</h2>
     <div class="posts team-grid{% if category == 'Principal Investigator' %} one-item{% endif %}">
