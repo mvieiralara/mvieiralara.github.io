@@ -7,9 +7,9 @@
 - title: Team
   url: /team/
   key: team
-- title: Publications
-  url: /publications/
-  key: publications
+- title: Output
+  url: /output/
+  key: output
 - title: Teaching
   url: /teaching/
   key: teaching
