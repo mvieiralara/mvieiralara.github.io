@@ -21,6 +21,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #intro h1 {
   letter-spacing: 0.02em;
+  white-space: nowrap;
 }
 
 #intro p {
@@ -40,11 +41,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .intro-affiliation {
-  font-size: 0.8rem;
-  letter-spacing: 0.12em;
+  max-width: none !important;
+  font-size: 0.7rem;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
   font-style: normal;
   opacity: 0.85;
+  white-space: nowrap;
 }
 
 .intro-department {
@@ -69,6 +72,18 @@ h1, h2, h3, h4, h5, h6 {
   max-width: 55vw;
   height: auto;
   margin: 0 auto;
+}
+
+@media screen and (max-width: 736px) {
+  #intro h1,
+  .intro-affiliation {
+    white-space: normal;
+  }
+
+  .intro-affiliation {
+    font-size: 0.65rem;
+    letter-spacing: 0.08em;
+  }
 }
 
 #nav {
