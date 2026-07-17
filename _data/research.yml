@@ -1,5 +1,5 @@
 - number: "01"
-  title: Quantitative Metabolism
+  title: Quantitative Physiology
   icon: fa-chart-line
   description: >-
     We quantify how cells distribute matter, energy and catalytic capacity.
@@ -9,7 +9,7 @@
 
 
 - number: "02"
-  title: Bioenergetics
+  title: Mitochondrial Bioenergetics
   icon: fa-bolt
   description: >-
     We investigate how living systems capture, conserve and spend energy.

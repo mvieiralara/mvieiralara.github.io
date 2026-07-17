@@ -10,9 +10,9 @@ description: BioEfficiency Lab at TU Delft.
     <span class="date">The group</span>
     <h2>Understanding and designing<br />biological efficiency</h2>
     <p>
-      We combine quantitative physiology, bioenergetics and metabolic
-      engineering to make metabolism measurable, predictable and ultimately
-      controllable—from molecular energy transduction to cell factories and
+      We combine quantitative physiology, mitochondrial bioenergetics and
+      bioengineering to make metabolism measurable, predictable and ultimately
+      controllable: from molecular energy transduction to cell factories and
       bioprocesses.
     </p>
   </header>
