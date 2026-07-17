@@ -77,7 +77,7 @@ description: BioEfficiency Lab at TU Delft.
 <section class="post lab-section">
   <header class="major section-heading">
     <span class="date">Featured work</span>
-    <h2>Publication highlight</h2>
+    <h2>Output highlight</h2>
   </header>
   {% assign featured = site.data.publications | where: "featured", true | first %}
   {% if featured %}
@@ -103,7 +103,7 @@ description: BioEfficiency Lab at TU Delft.
       <p>Meet the researchers and students working across organisms, technologies and scales.</p>
     </div>
     <div class="col-4 col-12-small">
-      <h3><a href="{{ '/publications/' | relative_url }}">Publications</a></h3>
+      <h3><a href="{{ '/output/' | relative_url }}">Output</a></h3>
       <p>Explore research connecting quantitative biology, bioenergetics and biotechnology.</p>
     </div>
     <div class="col-4 col-12-small">

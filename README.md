@@ -48,7 +48,7 @@ Edit these short Markdown files:
 index.md
 research/index.md
 team/index.md
-publications/index.md
+output/index.md
 teaching/index.md
 positions/index.md
 contact/index.md
