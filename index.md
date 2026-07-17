@@ -2,7 +2,7 @@
 layout: default
 title:
 nav: home
-description: BioEfficiency Lab at TU Delft.
+description: BioEfficiency Lab @ TU Delft.
 ---
 
 <article class="post featured">
