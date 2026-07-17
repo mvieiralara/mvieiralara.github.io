@@ -7,7 +7,7 @@ description: BioEfficiency Lab at TU Delft.
 
 <article class="post featured">
   <header class="major">
-    <span class="date">Marcel Vieira-Lara Group · TU Delft</span>
+    <span class="date">The group</span>
     <h2>Understanding and designing<br />biological efficiency</h2>
     <p>
       We combine quantitative physiology, bioenergetics and metabolic

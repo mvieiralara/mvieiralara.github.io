@@ -20,7 +20,7 @@
 - name: Marieke Warmerdam
   role: PhD Candidate
   category: PhD Candidates
-  photo: Marieke.jpg
+  photo: Marieke.jpeg
   description: Ethanol-fuelled yeast biotechnology.
 
 - name: Gabriela van Leersum
@@ -53,4 +53,8 @@
   photo: Marcus.jpg
   description: Oxygen-dependent mammalian-cell metabolism and ATP economy.
 
-
+- name: Abba Saleh
+  role: Research Technician
+  category: Technicians
+  photo: Abba.png
+  description: Off-gas spectroscopy.
