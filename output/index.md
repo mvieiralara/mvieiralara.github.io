@@ -28,7 +28,6 @@ description: Research output from the BioEfficiency Lab.
           <span class="year">{{ publication.year }} · {{ publication.journal }}</span>
           <h3>{{ publication.title }}</h3>
           <p>{{ publication.authors }}</p>
-          <span class="button small">View publication</span>
         </article>
       </a>
     {% endfor %}
@@ -56,7 +55,6 @@ description: Research output from the BioEfficiency Lab.
           <span class="year">{{ patent.year }} · {{ patent.number }}</span>
           <h3>{{ patent.title }}</h3>
           <p>{{ patent.inventors }}</p>
-          <span class="button small">View patent</span>
         </article>
       </a>
     {% endfor %}

@@ -23,10 +23,6 @@ description: BioEfficiency Lab @ TU Delft.
     <img src="{{ '/images/team_photo2.jpg' | relative_url }}"
          alt="BioEfficiency Lab team, alternate photo" class="photo-hover" />
   </div>
-
-  <ul class="actions special">
-    <li><a href="{{ '/research/' | relative_url }}" class="button large">Explore our research</a></li>
-  </ul>
 </article>
 
 <section class="lab-section">

@@ -15,12 +15,13 @@ description: Members of the BioEfficiency Lab.
     </p>
   </header>
 
-  {% assign categories = "Principal Investigator|Postdoctoral Researchers|PhD Candidates|MSc Students|Technicians" | split: "|" %}
+  {% assign categories = "Principal Investigator|Postdoctoral Researchers|PhD Candidates|Technicians|MSc Students" | split: "|" %}
   {% for category in categories %}
-    <h2 class="team-category">{{ category }}</h2>
-    <div class="posts team-grid{% if category == 'Principal Investigator' %} one-item{% endif %}">
-      {% for person in site.data.team %}
-        {% if person.category == category %}
+    {% assign category_members = site.data.team | where: "category", category %}
+    {% if category_members.size > 0 %}
+      <h2 class="team-category">{{ category }}</h2>
+      <div class="posts team-grid{% if category == 'Principal Investigator' %} one-item{% endif %}">
+        {% for person in category_members %}
           <article class="person-card">
             <span class="image fit portrait">
               <img src="{{ '/images/' | append: person.photo | relative_url }}"
@@ -55,8 +56,8 @@ description: Members of the BioEfficiency Lab.
               {% endif %}
             </div>
           </article>
-        {% endif %}
-      {% endfor %}
-    </div>
+        {% endfor %}
+      </div>
+    {% endif %}
   {% endfor %}
 </section>
