@@ -151,7 +151,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .pillar-row {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(20rem, 0.9fr);
+  grid-template-columns: minmax(0, 1.1fr) minmax(20rem, 0.9fr);
   gap: 4rem;
   align-items: center;
   padding: 4rem 0;
@@ -160,6 +160,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .pillar-row:nth-child(even) .pillar-image {
   order: -1;
+  justify-self: start;
 }
 
 .pillar-copy,
@@ -191,8 +192,11 @@ h1, h2, h3, h4, h5, h6 {
 
 .pillar-image {
   overflow: hidden;
+  width: 100%;
+  max-width: 30rem;
   aspect-ratio: 4 / 3;
   margin: 0;
+  justify-self: end;
   background: var(--lab-soft);
 }
 
@@ -455,6 +459,10 @@ h1, h2, h3, h4, h5, h6 {
   }
   .pillar-row:nth-child(even) .pillar-image {
     order: initial;
+  }
+  .pillar-image,
+  .pillar-row:nth-child(even) .pillar-image {
+    justify-self: center;
   }
   .person-card .portrait {
     width: 12rem;
