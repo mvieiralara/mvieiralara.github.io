@@ -3,12 +3,26 @@
   category: Principal Investigator
   photo: Marcel.jpg
   email: M.A.VieiraLara@tudelft.nl
+  education:
+    - Postdoc Industrial Microbiology, TU Delft, The Netherlands
+    - Ph.D. Systems Biology, University of Groningen, The Netherlands
+    - M.Sc. Molecular Medicine, University of Groningen, The Netherlands
+    - B.Sc. Molecular Sciences, University of São Paulo, Brazil
+  languages:
+    - Portuguese
+    - English
+    - Dutch
+    - Spanish
   description: Bioenergetics, quantitative physiology and metabolic engineering.
 
 - name: Marc Pilegaard Pedersen
   role: Postdoctoral Researcher
   category: Postdoctoral Researchers
   photo: Marc.jpeg
+  education:
+    - Ph.D. Molecular Cell Biology, University of Groningen, The Netherlands
+    - M.Sc. Biotechnology, University of Copenhagen, Denmark
+    - B.Sc. Biotechnology, University of Copenhagen, Denmark
   description: Single-cell protein production from ethanol using Cyberlindnera jadinii.
 
 - name: Sagarika Bangalore Govindaraju
@@ -26,8 +40,8 @@
   category: PhD Candidates
   photo: Marieke.jpeg
   education:
-    - B.Sc. Life Science and Technology, TU Delft, The Netherlands
     - M.Sc. Life Sciences and Technology, TU Delft, The Netherlands
+    - B.Sc. Life Science and Technology, TU Delft, The Netherlands
   description: Ethanol-fuelled yeast biotechnology.
 
 - name: Gabriela van Leersum
@@ -35,8 +49,8 @@
   category: PhD Candidates
   photo: Gabi.png
   education:
-    - B.Sc. Life Science and Technology, TU Delft, The Netherlands
     - M.Sc. Life Sciences and Technology, TU Delft, The Netherlands
+    - B.Sc. Life Science and Technology, TU Delft, The Netherlands
   description: Energetics of yeast metabolism and trade-offs.
 
 - name: Jelle Hoek
@@ -44,8 +58,8 @@
   category: PhD Candidates
   photo: Jelle.jpeg
   education:
-    - B.Sc. Life Science and Technology, TU Delft, The Netherlands
     - M.Sc. Life Sciences and Technology, TU Delft, The Netherlands
+    - B.Sc. Life Science and Technology, TU Delft, The Netherlands
   description: Microbial raw materials for cellular agriculture.
 
 - name: Malte Marquardt
@@ -63,8 +77,8 @@
   category: PhD Candidates
   photo: Tom.jpg
   education:
-    - B.Sc. Life Science and Technology, TU Delft, The Netherlands
     - M.Sc. Life Sciences and Technology, TU Delft, The Netherlands
+    - B.Sc. Life Science and Technology, TU Delft, The Netherlands
   description: Off-gas spectroscopy for physiological and process biomarkers.
 
 - name: Marcus Young

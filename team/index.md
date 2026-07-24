@@ -44,6 +44,13 @@ description: Members of the BioEfficiency Lab.
                 </div>
               {% endif %}
 
+              {% if person.languages %}
+                <div class="person-languages">
+                  <h3>Languages</h3>
+                  <p>{{ person.languages | join: " · " }}</p>
+                </div>
+              {% endif %}
+
               <div class="person-project">
                 <h3>Project</h3>
                 <p>{{ person.description }}</p>
