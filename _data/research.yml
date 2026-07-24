@@ -6,7 +6,7 @@
   description: >-
     We investigate how living systems capture, conserve and spend energy.
     Our work spans respiratory chains, F<sub>o</sub>F<sub>1</sub> ATP synthase, mitochondrial physiology
-    and ATP economy in microbial and animal cells.
+    and ATP economy in yeast and animal cells.
 
 - number: "II"
   title: Quantitative Physiology
@@ -14,11 +14,10 @@
   image: Bioreactor.jpeg
   image_alt: Laboratory bioreactor used for quantitative physiology
   description: >-
-    We quantify how yeast and animal cells distribute matter, energy and
-    catalytic capacity across diverse metabolic states and alternative
-    feedstocks. Through controlled cultivation, extended off-gas analysis
-    beyond O<sub>2</sub> and CO<sub>2</sub>, stoichiometric analysis,
-    multi-omics, systems biology and predictive modelling, we identify the
+    We quantify how yeast and animal cells distribute resources and energy
+    according to culture conditions and alternative feedstocks. Through
+    controlled cultivation, extended off-gas analysis beyond O<sub>2</sub> and
+    CO<sub>2</sub>, and analytical, quantitative analyses, we identify the
     principles behind cellular rates, yields and trade-offs.
 
 - number: "III"
@@ -29,7 +28,7 @@
   description: >-
     We translate quantitative understanding into more efficient cells and
     processes. Our work includes mitochondrial engineering through mtDNA
-    engineering in <em>Saccharomyces cerevisiae</em>, and nuclear-genome
+    editing in <em>Saccharomyces cerevisiae</em>, and nuclear-genome
     engineering coupled with mitochondrial targeting sequences. We develop and
-    characterize microbial and animal cell factories under process-relevant
+    characterize yeast and animal cell factories under process-relevant
     conditions.

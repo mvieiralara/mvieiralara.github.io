@@ -10,8 +10,8 @@ description: BioEfficiency Lab @ TU Delft.
     <span class="date">The group</span>
     <h2>Understanding and designing<br />biological efficiency</h2>
     <p>
-      We study biological efficiency across scales by combining quantitative
-      physiology, mitochondrial bioenergetics and bioengineering. Our work
+      We study biological efficiency across scales by combining mitochondrial
+      bioenergetics, quantitative physiology and bioengineering. Our work
       connects fundamental insight into metabolism and energy conservation with
       applied research on cell factories and bioprocesses.
     </p>
@@ -28,6 +28,10 @@ description: BioEfficiency Lab @ TU Delft.
 <section class="lab-section">
   <header class="major section-heading">
     <span class="date">Research</span>
+    <h2>Biological efficiency across scales</h2>
+    <p class="research-scale-description">
+      From genes, proteins, and metabolism to physiology and bioprocesses
+    </p>
     <figure class="research-banner">
       <img src="{{ '/images/banner.png' | relative_url }}"
            alt="From genes and cellular energy systems to quantitative models, engineered cells and bioreactors" />
@@ -71,7 +75,9 @@ description: BioEfficiency Lab @ TU Delft.
       <article>
         <span class="date">{{ item.date }}</span>
         <h3>{{ item.title }}</h3>
-        <p>{{ item.text }}</p>
+        {% if item.text %}
+          <p>{{ item.text }}</p>
+        {% endif %}
       </article>
     {% endfor %}
   </div>

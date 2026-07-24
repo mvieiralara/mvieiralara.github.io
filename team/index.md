@@ -50,10 +50,12 @@ description: Members of the BioEfficiency Lab.
                 </div>
               {% endif %}
 
-              <div class="person-project">
-                <h3>Project</h3>
-                <p>{{ person.description }}</p>
-              </div>
+              {% if person.description %}
+                <div class="person-project">
+                  <h3>Project</h3>
+                  <p>{{ person.description }}</p>
+                </div>
+              {% endif %}
 
               {% if person.email %}
                 <ul class="actions">

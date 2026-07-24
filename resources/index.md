@@ -9,8 +9,8 @@ description: Research resources from the BioEfficiency Lab.
   <header class="major">
     <span class="date">Open science</span>
     <p>
-      Protocols, tools and supporting materials for quantitative physiology,
-      mitochondrial bioenergetics and bioengineering.
+      Protocols, tools and supporting materials for mitochondrial bioenergetics,
+      quantitative physiology and bioengineering.
     </p>
   </header>
 

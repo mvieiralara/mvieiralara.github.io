@@ -224,6 +224,10 @@ h1, h2, h3, h4, h5, h6 {
   background: var(--lab-soft);
 }
 
+.research-scale-description {
+  font-style: italic;
+}
+
 .research-banner img {
   display: block;
   width: 100%;
@@ -342,6 +346,14 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 1.5rem;
   background: #fff;
   transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.news-grid article {
+  padding: 1.5rem;
+}
+
+.news-grid article > :last-child {
+  margin-bottom: 0;
 }
 
 .news-grid article:hover,

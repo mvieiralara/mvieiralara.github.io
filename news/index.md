@@ -19,7 +19,9 @@ description: News from the BioEfficiency Lab.
       <article>
         <span class="date">{{ item.date }}</span>
         <h2>{{ item.title }}</h2>
-        <p>{{ item.text }}</p>
+        {% if item.text %}
+          <p>{{ item.text }}</p>
+        {% endif %}
       </article>
     {% endfor %}
   </div>
