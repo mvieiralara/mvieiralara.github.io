@@ -1,9 +1,6 @@
 - title: Home
   url: /
   key: home
-- title: Research
-  url: /research/
-  key: research
 - title: Team
   url: /team/
   key: team
