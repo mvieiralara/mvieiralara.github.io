@@ -8,6 +8,10 @@ description: Research pillars of the BioEfficiency Lab.
 <section class="post">
   <header class="major">
     <span class="date">Research</span>
+    <figure class="research-banner">
+      <img src="{{ '/images/banner.png' | relative_url }}"
+           alt="From genes and cellular energy systems to quantitative models, engineered cells and bioreactors" />
+    </figure>
     <h1>Three complementary pillars</h1>
     <p>
       Bioefficiency is our unifying principle: understanding how living systems
