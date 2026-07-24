@@ -28,6 +28,10 @@ description: BioEfficiency Lab @ TU Delft.
 <section class="lab-section">
   <header class="major section-heading">
     <span class="date">Research</span>
+    <figure class="research-banner">
+      <img src="{{ '/images/banner.png' | relative_url }}"
+           alt="From genes and cellular energy systems to quantitative models, engineered cells and bioreactors" />
+    </figure>
     <h2>Three complementary pillars</h2>
     <p>
       Our projects connect first-principles understanding with quantitative
