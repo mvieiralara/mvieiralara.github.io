@@ -203,6 +203,21 @@ h1, h2, h3, h4, h5, h6 {
   box-shadow: 0 1rem 2.5rem rgba(30, 37, 45, 0.09);
 }
 
+.output-card {
+  display: block;
+  border-bottom: 0;
+  color: inherit;
+}
+
+.output-card article {
+  cursor: pointer;
+}
+
+.output-card:focus-visible {
+  outline: solid 3px var(--lab-accent);
+  outline-offset: 4px;
+}
+
 .news-grid .date,
 .publication-list .year {
   display: block;

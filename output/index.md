@@ -21,14 +21,16 @@ description: Research output from the BioEfficiency Lab.
 
   <div class="publication-list">
     {% for publication in site.data.publications %}
-      <article>
-        <span class="year">{{ publication.year }} · {{ publication.journal }}</span>
-        <h3>{{ publication.title }}</h3>
-        <p>{{ publication.authors }}</p>
-        {% if publication.doi and publication.doi != "" %}
-          <a href="{{ publication.doi }}" class="button small" target="_blank" rel="noopener">DOI</a>
-        {% endif %}
-      </article>
+      <a class="output-card" href="{{ publication.doi }}"
+         target="_blank" rel="noopener"
+         aria-label="View {{ publication.title }} on the journal website">
+        <article>
+          <span class="year">{{ publication.year }} · {{ publication.journal }}</span>
+          <h3>{{ publication.title }}</h3>
+          <p>{{ publication.authors }}</p>
+          <span class="button small">View publication</span>
+        </article>
+      </a>
     {% endfor %}
   </div>
 
@@ -47,13 +49,16 @@ description: Research output from the BioEfficiency Lab.
 
   <div class="publication-list">
     {% for patent in site.data.patents %}
-      <article>
-        <span class="year">{{ patent.year }} · {{ patent.number }}</span>
-        <h3>{{ patent.title }}</h3>
-        <p>{{ patent.inventors }}</p>
-        <a href="{{ patent.url }}" class="button small"
-           target="_blank" rel="noopener">View patent</a>
-      </article>
+      <a class="output-card" href="{{ patent.url }}"
+         target="_blank" rel="noopener"
+         aria-label="View patent {{ patent.number }}">
+        <article>
+          <span class="year">{{ patent.year }} · {{ patent.number }}</span>
+          <h3>{{ patent.title }}</h3>
+          <p>{{ patent.inventors }}</p>
+          <span class="button small">View patent</span>
+        </article>
+      </a>
     {% endfor %}
   </div>
 </section>
