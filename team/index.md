@@ -26,14 +26,34 @@ description: Members of the BioEfficiency Lab.
               <img src="{{ '/images/' | append: person.photo | relative_url }}"
                    alt="{{ person.name }}" />
             </span>
-            <h2>{{ person.name }}</h2>
-            <p class="role">{{ person.role }}</p>
-            <p>{{ person.description }}</p>
-            {% if person.email %}
-              <ul class="actions special">
-                <li><a href="mailto:{{ person.email }}" class="button small">Email</a></li>
-              </ul>
-            {% endif %}
+            <div class="person-details">
+              <header>
+                <h2>{{ person.name }}</h2>
+                <p class="role">{{ person.role }}</p>
+              </header>
+
+              {% if person.education %}
+                <div class="person-background">
+                  <h3>Academic background</h3>
+                  <ul>
+                    {% for degree in person.education %}
+                      <li>{{ degree }}</li>
+                    {% endfor %}
+                  </ul>
+                </div>
+              {% endif %}
+
+              <div class="person-project">
+                <h3>Project</h3>
+                <p>{{ person.description }}</p>
+              </div>
+
+              {% if person.email %}
+                <ul class="actions">
+                  <li><a href="mailto:{{ person.email }}" class="button small">Email</a></li>
+                </ul>
+              {% endif %}
+            </div>
           </article>
         {% endif %}
       {% endfor %}

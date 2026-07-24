@@ -15,46 +15,82 @@
   role: Postdoctoral Researcher
   category: Postdoctoral Researchers
   photo: Sagarika.png
+  education:
+    - Ph.D. Industrial Microbiology, TU Delft, The Netherlands
+    - M.Sc. Life Sciences and Technology, TU Delft, The Netherlands
+    - B.Sc. Engineering, Biotechnology, BMS College of Engineering, India
   description: Off-gas measurements for quantitative metabolism.
 
 - name: Marieke Warmerdam
   role: PhD Candidate
   category: PhD Candidates
   photo: Marieke.jpeg
+  education:
+    - B.Sc. Life Science and Technology, TU Delft, The Netherlands
+    - M.Sc. Life Sciences and Technology, TU Delft, The Netherlands
   description: Ethanol-fuelled yeast biotechnology.
 
 - name: Gabriela van Leersum
   role: PhD Candidate
   category: PhD Candidates
   photo: Gabi.png
+  education:
+    - B.Sc. Life Science and Technology, TU Delft, The Netherlands
+    - M.Sc. Life Sciences and Technology, TU Delft, The Netherlands
   description: Energetics of yeast metabolism and trade-offs.
 
 - name: Jelle Hoek
   role: PhD Candidate
   category: PhD Candidates
   photo: Jelle.jpeg
+  education:
+    - B.Sc. Life Science and Technology, TU Delft, The Netherlands
+    - M.Sc. Life Sciences and Technology, TU Delft, The Netherlands
   description: Microbial raw materials for cellular agriculture.
 
 - name: Malte Marquardt
   role: PhD Candidate
   category: PhD Candidates
   photo: Malte.png
+  education:
+    - M.Sc. Biomolecular Sciences, University of Groningen, The Netherlands
+    - M.A. Philosophy, Science and Humanities, University of Groningen, The Netherlands
+    - B.Sc. Biotechnology, Beuth University of Applied Science, Germany
   description: Engineering yeast mitochondrial DNA for energetic efficiency.
 
 - name: Tom Koelmans
   role: PhD Candidate
   category: PhD Candidates
   photo: Tom.jpg
+  education:
+    - B.Sc. Life Science and Technology, TU Delft, The Netherlands
+    - M.Sc. Life Sciences and Technology, TU Delft, The Netherlands
   description: Off-gas spectroscopy for physiological and process biomarkers.
 
 - name: Marcus Young
   role: PhD Candidate
   category: PhD Candidates
   photo: Marcus.jpg
+  education:
+    - M.Eng. Bioengineering, University of Sheffield, United Kingdom
+    - B.Sc. Psychology, University of Wollongong, Australia
   description: Oxygen-dependent mammalian-cell metabolism and ATP economy.
+
+- name: Lucas Garbini Cespedes
+  role: PhD Candidate
+  category: PhD Candidates
+  photo: Lucas.png
+  education:
+    - M.Sc. Biotechnology, University of São Paulo, Brazil
+    - B.Sc. Biological Sciences, University of São Paulo, Brazil
+  description: Quantitative physiology and mitochondrial engineering of thermotolerant yeasts.
 
 - name: Abba Saleh
   role: Research Technician
   category: Technicians
   photo: Abba.png
+  education:
+    - Ph.D. Physics, Tampere University, Finland
+    - M.Sc. Materials Science and nanotechnology, Bilkent University, Turkey
+    - B.Sc. Physics Engineering, Gaziantep University, Turkey
   description: Off-gas spectroscopy.

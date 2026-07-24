@@ -159,17 +159,30 @@ h1, h2, h3, h4, h5, h6 {
   border-top: solid 2px var(--lab-dark);
 }
 
-.team-grid.one-item {
-  grid-template-columns: minmax(0, 1fr);
+.team-grid {
+  display: block;
+}
+
+.person-card {
+  display: grid;
+  grid-template-columns: 14rem minmax(0, 1fr);
+  gap: 2.5rem;
+  align-items: start;
+  padding: 2rem 0;
+  border-top: solid 1px var(--lab-border);
+  text-align: left;
+}
+
+.person-card:first-child {
+  border-top: 0;
 }
 
 .person-card .portrait {
   aspect-ratio: 1 / 1;
   overflow: hidden;
   border-radius: 50%;
-  max-width: 18rem;
-  margin-left: auto;
-  margin-right: auto;
+  width: 14rem;
+  margin: 0;
   background: #e8ecef;
 }
 
@@ -179,13 +192,49 @@ h1, h2, h3, h4, h5, h6 {
   object-fit: cover;
 }
 
+.person-details {
+  min-width: 0;
+}
+
+.person-details header {
+  margin-bottom: 1.25rem;
+}
+
+.person-details h2 {
+  margin-bottom: 0.2rem;
+}
+
 .person-card .role {
-  text-align: center;
-  font-weight: 700;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  font-size: 0.72rem;
+  margin-bottom: 0;
+  text-align: left;
+  font-family: "Merriweather", Georgia, serif;
+  font-size: 0.9rem;
+  font-style: italic;
+  font-weight: 400;
+  letter-spacing: 0;
+  text-transform: none;
   color: #717981;
+}
+
+.person-background,
+.person-project {
+  margin-bottom: 1.25rem;
+}
+
+.person-background h3,
+.person-project h3 {
+  margin-bottom: 0.4rem;
+  font-size: 0.82rem;
+  letter-spacing: 0.06em;
+}
+
+.person-background ul,
+.person-project p {
+  margin-bottom: 0;
+}
+
+.person-project p {
+  text-align: left;
 }
 
 .news-grid article,
@@ -317,7 +366,24 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 0.95rem;
   }
   .person-card .portrait {
-    max-width: 14rem;
+    width: 11rem;
+    margin: 0 auto;
+  }
+  .person-card {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    text-align: center;
+  }
+  .person-card .role,
+  .person-project p {
+    text-align: center;
+  }
+  .person-background ul {
+    display: inline-block;
+    text-align: left;
+  }
+  .person-details .actions {
+    justify-content: center;
   }
   .lab-callout {
     padding: 3rem 1.25rem;
