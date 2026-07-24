@@ -2,10 +2,12 @@
   title: Quantitative Physiology
   icon: fa-chart-line
   description: >-
-    We quantify how cells distribute matter, energy and catalytic capacity.
-    Through controlled cultivation, stoichiometric analysis, multi-omics and
-    predictive modelling, we identify the principles behind cellular rates,
-    yields and trade-offs.
+    We quantify how yeast and animal cells distribute matter, energy and
+    catalytic capacity across diverse metabolic states and alternative
+    feedstocks. Through controlled cultivation, extended off-gas analysis
+    beyond O<sub>2</sub> and CO<sub>2</sub>, stoichiometric analysis,
+    multi-omics, systems biology and predictive modelling, we identify the
+    principles behind cellular rates, yields and trade-offs.
 
 
 - number: "02"
@@ -22,6 +24,9 @@
   icon: fa-dna
   description: >-
     We translate quantitative understanding into more efficient cells and
-    processes. We engineer metabolism, evaluate sustainable feedstocks and develop and
-    characterize microbial and animal cell factories under process-relevant conditions.
+    processes. Our work includes mitochondrial engineering through mtDNA
+    engineering in <em>Saccharomyces cerevisiae</em>, and nuclear-genome
+    engineering coupled with mitochondrial targeting sequences. We develop and
+    characterize microbial and animal cell factories under process-relevant
+    conditions.
   

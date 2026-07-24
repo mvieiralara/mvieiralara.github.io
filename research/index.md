@@ -10,12 +10,14 @@ description: Research pillars of the BioEfficiency Lab.
     <span class="date">Research</span>
     <h1>Three complementary pillars</h1>
     <p>
-      Bioefficiency is the quantitative study of how living cells acquire,
-      convert, allocate and utilize resources across biological scales.
+      Bioefficiency is our unifying principle: understanding how living systems
+      acquire, convert, allocate and utilize resources across biological scales.
     </p>
     <p>
-      We study biological efficiency by combining quantitative measurement,
-      mechanistic understanding and purposeful engineering.
+      We connect fundamental questions about metabolism and energy conservation
+      with applied research on cell factories and bioprocesses, combining
+      quantitative measurement, systems-level understanding and purposeful
+      engineering.
     </p>
   </header>
 
