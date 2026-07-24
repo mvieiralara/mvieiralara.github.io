@@ -8,7 +8,6 @@ description: Positions and student projects in the BioEfficiency Lab.
 <section class="post">
   <header class="major">
     <span class="date">Join us</span>
-    <h1>Positions and projects</h1>
     <p>
       We welcome researchers and students interested in quantitative metabolism,
       bioenergetics and bioengineering.

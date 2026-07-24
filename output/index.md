@@ -8,7 +8,6 @@ description: Research output from the BioEfficiency Lab.
 <section class="post">
   <header class="major">
     <span class="date">Research outputs</span>
-    <h1>Output</h1>
     <p>
       Research connecting fundamental metabolism, quantitative biology and
       sustainable biotechnology.

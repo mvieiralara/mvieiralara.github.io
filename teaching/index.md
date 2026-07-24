@@ -8,7 +8,6 @@ description: Teaching activities of the BioEfficiency Lab.
 <section class="post">
   <header class="major">
     <span class="date">Education</span>
-    <h1>Teaching</h1>
     <p>
       We train students to reason quantitatively about microbial physiology,
       metabolism and bioprocess design.

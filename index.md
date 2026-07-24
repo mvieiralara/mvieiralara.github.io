@@ -97,9 +97,3 @@ description: BioEfficiency Lab @ TU Delft.
     </div>
   </div>
 </section>
-
-<section class="lab-callout">
-  <h2>Interested in working with us?</h2>
-  <p>We welcome students, researchers and collaborators who share our interest in biological efficiency.</p>
-  <a href="{{ '/positions/' | relative_url }}" class="button large">Explore opportunities</a>
-</section>

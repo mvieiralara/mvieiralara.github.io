@@ -8,7 +8,6 @@ description: Members of the BioEfficiency Lab.
 <section class="post">
   <header class="major">
     <span class="date">People</span>
-    <h1>Our team</h1>
     <p>
       A multidisciplinary group working across genes, microorganisms, animal cells,
       and bioreactors.

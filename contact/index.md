@@ -8,7 +8,6 @@ description: Contact the BioEfficiency Lab at TU Delft.
 <section class="post">
   <header class="major">
     <span class="date">TU Delft</span>
-    <h1>Contact</h1>
     <p>
       Contact us about research collaborations, student projects and prospective
       positions.

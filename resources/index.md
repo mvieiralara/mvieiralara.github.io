@@ -8,7 +8,6 @@ description: Research resources from the BioEfficiency Lab.
 <section class="post">
   <header class="major">
     <span class="date">Open science</span>
-    <h1>Resources</h1>
     <p>
       Protocols, tools and supporting materials for quantitative physiology,
       mitochondrial bioenergetics and bioengineering.
