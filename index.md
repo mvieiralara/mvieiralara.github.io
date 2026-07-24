@@ -59,6 +59,8 @@ description: BioEfficiency Lab @ TU Delft.
   </div>
 </section>
 
+{% include funding.html %}
+
 <section class="post lab-section">
   <header class="major section-heading">
     <span class="date">News</span>
