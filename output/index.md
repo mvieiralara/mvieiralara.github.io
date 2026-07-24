@@ -15,8 +15,12 @@ description: Research output from the BioEfficiency Lab.
     </p>
   </header>
 
+  <header class="major section-heading">
+    <h2>Publications</h2>
+  </header>
+
   <div class="publication-list">
-   {% for publication in site.data.publications %}
+    {% for publication in site.data.publications %}
       <article>
         <span class="year">{{ publication.year }} · {{ publication.journal }}</span>
         <h3>{{ publication.title }}</h3>
@@ -34,4 +38,22 @@ description: Research output from the BioEfficiency Lab.
          class="button large">View Google Scholar</a>
     </li>
   </ul>
+</section>
+
+<section class="post lab-section">
+  <header class="major section-heading">
+    <h2>Patents</h2>
+  </header>
+
+  <div class="publication-list">
+    {% for patent in site.data.patents %}
+      <article>
+        <span class="year">{{ patent.year }} · {{ patent.number }}</span>
+        <h3>{{ patent.title }}</h3>
+        <p>{{ patent.inventors }}</p>
+        <a href="{{ patent.url }}" class="button small"
+           target="_blank" rel="noopener">View patent</a>
+      </article>
+    {% endfor %}
+  </div>
 </section>
