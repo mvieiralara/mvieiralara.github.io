@@ -13,6 +13,12 @@
 - title: Teaching
   url: /teaching/
   key: teaching
+- title: News
+  url: /news/
+  key: news
+- title: Resources
+  url: /resources/
+  key: resources
 - title: Positions
   url: /positions/
   key: positions

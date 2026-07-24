@@ -222,6 +222,11 @@ h1, h2, h3, h4, h5, h6 {
   border-bottom: 0;
 }
 
+.home-links .row > div,
+.home-links .row > div p {
+  text-align: left;
+}
+
 .lab-callout {
   background: var(--lab-dark);
   color: #fff;

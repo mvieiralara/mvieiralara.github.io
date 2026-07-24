@@ -74,24 +74,6 @@ description: BioEfficiency Lab @ TU Delft.
   </div>
 </section>
 
-<section class="post lab-section">
-  <header class="major section-heading">
-    <span class="date">Featured work</span>
-    <h2>Output highlight</h2>
-  </header>
-  {% assign featured = site.data.publications | where: "featured", true | first %}
-  {% if featured %}
-    <div class="featured-publication">
-      <span class="year">{{ featured.year }} · {{ featured.journal }}</span>
-      <h3>{{ featured.title }}</h3>
-      <p>{{ featured.authors }}</p>
-      {% if featured.doi and featured.doi != "" %}
-        <a href="{{ featured.doi }}" class="button small" target="_blank" rel="noopener">View publication</a>
-      {% endif %}
-    </div>
-  {% endif %}
-</section>
-
 <section class="post lab-section home-links">
   <header class="major section-heading">
     <span class="date">Explore</span>
