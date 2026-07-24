@@ -1,6 +1,18 @@
-- number: "01"
+- number: "I"
+  title: Mitochondrial Bioenergetics
+  icon: fa-bolt
+  image: ETC.png
+  image_alt: Electron transport chain model
+  description: >-
+    We investigate how living systems capture, conserve and spend energy.
+    Our work spans respiratory chains, F<sub>o</sub>F<sub>1</sub> ATP synthase, mitochondrial physiology
+    and ATP economy in microbial and animal cells.
+
+- number: "II"
   title: Quantitative Physiology
   icon: fa-chart-line
+  image: Bioreactor.jpeg
+  image_alt: Laboratory bioreactor used for quantitative physiology
   description: >-
     We quantify how yeast and animal cells distribute matter, energy and
     catalytic capacity across diverse metabolic states and alternative
@@ -9,19 +21,11 @@
     multi-omics, systems biology and predictive modelling, we identify the
     principles behind cellular rates, yields and trade-offs.
 
-
-- number: "02"
-  title: Mitochondrial Bioenergetics
-  icon: fa-bolt
-  description: >-
-    We investigate how living systems capture, conserve and spend energy.
-    Our work spans respiratory chains, F<sub>o</sub>F<sub>1</sub> ATP synthase, mitochondrial physiology
-    and ATP economy in microbial and animal cells.
-  
-
-- number: "03"
+- number: "III"
   title: Bioengineering
   icon: fa-dna
+  image: bioengineering.png
+  image_alt: Mitochondrial and nuclear genome bioengineering
   description: >-
     We translate quantitative understanding into more efficient cells and
     processes. Our work includes mitochondrial engineering through mtDNA
@@ -29,4 +33,3 @@
     engineering coupled with mitochondrial targeting sequences. We develop and
     characterize microbial and animal cell factories under process-relevant
     conditions.
-  

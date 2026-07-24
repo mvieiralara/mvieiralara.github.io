@@ -39,20 +39,21 @@ description: BioEfficiency Lab @ TU Delft.
     </p>
   </header>
 
-  <div class="posts pillars">
+  <div class="pillar-rows">
     {% for pillar in site.data.research %}
-      <article>
-        <header>
-          <span class="date">{{ pillar.number }}</span>
-          <h2>{{ pillar.title }}</h2>
-        </header>
-        <div class="pillar-icon icon solid {{ pillar.icon }}"></div>
-        <p>{{ pillar.description }}</p>
-        <ul class="alt compact-list">
-          {% for topic in pillar.topics %}
-            <li>{{ topic }}</li>
-          {% endfor %}
-        </ul>
+      <article class="pillar-row">
+        <div class="pillar-copy">
+          <header class="pillar-heading">
+            <h2>{{ pillar.number }}. {{ pillar.title }}</h2>
+            <span class="pillar-inline-icon icon solid {{ pillar.icon }}"
+                  aria-hidden="true"></span>
+          </header>
+          <p>{{ pillar.description }}</p>
+        </div>
+        <figure class="pillar-image">
+          <img src="{{ '/images/' | append: pillar.image | relative_url }}"
+               alt="{{ pillar.image_alt }}" />
+        </figure>
       </article>
     {% endfor %}
   </div>
