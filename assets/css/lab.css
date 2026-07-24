@@ -366,26 +366,27 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 0.95rem;
   }
   .person-card .portrait {
-    width: 11rem;
-    margin: 0 auto;
+    width: 12rem;
+    margin: 0;
   }
   .person-card {
-    grid-template-columns: 1fr;
-    gap: 1.5rem;
-    text-align: center;
-  }
-  .person-card .role,
-  .person-project p {
-    text-align: center;
-  }
-  .person-background ul {
-    display: inline-block;
+    grid-template-columns: 12rem minmax(0, 1fr);
+    gap: 1.75rem;
     text-align: left;
-  }
-  .person-details .actions {
-    justify-content: center;
   }
   .lab-callout {
     padding: 3rem 1.25rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .person-card {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .person-card .portrait {
+    width: 11rem;
+    margin: 0 auto;
   }
 }

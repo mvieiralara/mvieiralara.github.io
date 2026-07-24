@@ -14,8 +14,9 @@ author:
   email: M.A.VieiraLara@tudelft.nl
 
 social:
-  scholar: https://scholar.google.com/citations?hl=en&user=kvnKhYoAAAAJ
+  scholar: "https://scholar.google.com/citations?hl=en&user=kvnKhYoAAAAJ&view_op=list_works&sortby=pubdate"
   linkedin: https://www.linkedin.com/in/mavl
+  orcid: https://orcid.org/0000-0003-3115-3520
 
 exclude:
   - README.md
