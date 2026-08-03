@@ -9,10 +9,6 @@ description: Forthcoming open-science resources from the BioEfficiency Lab.
   <h1 class="visually-hidden">Resources</h1>
   <header class="major">
     <span class="date">Open science</span>
-    <p>
-      Protocols, tools and supporting materials for bioenergetics, quantitative
-      physiology and mitochondrial engineering.
-    </p>
   </header>
 
   <div class="resource-status">
