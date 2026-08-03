@@ -113,13 +113,18 @@ h1, h2, h3, h4, h5, h6 {
 /* A more compact vertical rhythm than the theme defaults. */
 #main > * {
   border-top: 0;
-  padding-top: 2rem;
-  padding-bottom: 1rem;
+  padding-top: 1.5rem;
+  padding-bottom: 0.75rem;
 }
 
 #main > .post {
-  padding-top: 4rem;
-  padding-bottom: 3rem;
+  padding-top: 3rem;
+  padding-bottom: 1.5rem;
+}
+
+#main > .post.lab-section {
+  padding-top: 2rem;
+  padding-bottom: 1rem;
 }
 
 header.major {
@@ -138,6 +143,10 @@ header.major > .date {
   position: relative;
   overflow: hidden;
   background: #111;
+}
+
+.team-photo-hover.image.main {
+  margin-bottom: 0;
 }
 
 .team-photo-hover img {
@@ -606,8 +615,13 @@ header.major > .date {
 
 @media screen and (max-width: 1280px) {
   #main > .post {
-    padding-top: 3rem;
-    padding-bottom: 2rem;
+    padding-top: 2.5rem;
+    padding-bottom: 1.25rem;
+  }
+
+  #main > .post.lab-section {
+    padding-top: 1.75rem;
+    padding-bottom: 0.875rem;
   }
 }
 
@@ -618,8 +632,13 @@ header.major > .date {
   }
 
   #main > .post {
-    padding-top: 2rem;
-    padding-bottom: 1rem;
+    padding-top: 1.5rem;
+    padding-bottom: 0.75rem;
+  }
+
+  #main > .post.lab-section {
+    padding-top: 1.25rem;
+    padding-bottom: 0.75rem;
   }
 
   header.major,

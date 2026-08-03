@@ -15,11 +15,10 @@
   optimized_image: optimized/Bioreactor.jpeg
   image_alt: Laboratory bioreactor used for quantitative physiology
   description: >-
-    We quantify how yeast and animal cells distribute resources and energy
-    according to culture conditions and alternative feedstocks. Through
-    controlled cultivation, off-gas analysis, and analytical, quantitative
-    analyses, we identify the principles behind cellular rates, yields and
-    trade-offs.
+    We examine how culture conditions and alternative feedstocks influence
+    cellular resource allocation, biomass composition, rates, yields and
+    physiological trade-offs. We use controlled cultivation, off-gas analysis,
+    and analytical, quantitative analyses.
 
 - number: "III"
   title: Mitochondrial Engineering
