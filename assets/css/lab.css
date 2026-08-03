@@ -107,11 +107,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #main > .lab-section {
-  border-top: solid 2px var(--lab-border);
+  border-top: 0;
 }
 
 /* A more compact vertical rhythm than the theme defaults. */
 #main > * {
+  border-top: 0;
   padding-top: 2rem;
   padding-bottom: 1rem;
 }
