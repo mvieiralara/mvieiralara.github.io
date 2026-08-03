@@ -263,7 +263,7 @@ header.major > .date {
   object-fit: cover;
 }
 
-.pillar-row:first-child .pillar-image img,
+.pillar-row:first-of-type .pillar-image img,
 .pillar-row:last-child .pillar-image img {
   object-fit: contain;
 }
@@ -481,13 +481,14 @@ header.major > .date {
   margin-bottom: 0;
 }
 
-.news-grid h2,
-.news-grid h3 {
+#main .news-grid h2,
+#main .news-grid h3 {
   font-family: "Merriweather", Georgia, serif;
   font-size: 1.1rem;
-  font-weight: 400;
+  font-weight: 400 !important;
   line-height: 1.6;
   letter-spacing: 0;
+  text-transform: none;
 }
 
 .news-grid article:hover,
