@@ -2,6 +2,7 @@
   role: Assistant Professor
   category: Principal Investigator
   photo: Marcel.jpg
+  optimized_photo: optimized/Marcel.jpg
   email: M.A.VieiraLara@tudelft.nl
   education:
     - Postdoc Industrial Microbiology, TU Delft, The Netherlands
@@ -75,6 +76,7 @@
   role: PhD Candidate
   category: PhD Candidates
   photo: Tom.jpg
+  optimized_photo: optimized/Tom.jpg
   education:
     - M.Sc. Life Sciences and Technology, TU Delft, The Netherlands
     - B.Sc. Life Science and Technology, TU Delft, The Netherlands
@@ -84,6 +86,7 @@
   role: PhD Candidate
   category: PhD Candidates
   photo: Marcus.jpg
+  optimized_photo: optimized/Marcus.jpg
   education:
     - M.Eng. Bioengineering, University of Sheffield, United Kingdom
     - B.Sc. Psychology, University of Wollongong, Australia

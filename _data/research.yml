@@ -1,5 +1,5 @@
 - number: "I"
-  title: Mitochondrial Bioenergetics
+  title: Bioenergetics
   icon: fa-bolt
   image: ETC.png
   image_alt: Electron transport chain model
@@ -12,6 +12,7 @@
   title: Quantitative Physiology
   icon: fa-chart-line
   image: Bioreactor.jpeg
+  optimized_image: optimized/Bioreactor.jpeg
   image_alt: Laboratory bioreactor used for quantitative physiology
   description: >-
     We quantify how yeast and animal cells distribute resources and energy
@@ -21,14 +22,13 @@
     principles behind cellular rates, yields and trade-offs.
 
 - number: "III"
-  title: Bioengineering
+  title: Mitochondrial Engineering
   icon: fa-dna
   image: bioengineering.png
-  image_alt: Mitochondrial and nuclear genome bioengineering
+  image_alt: Mitochondrial engineering through mitochondrial and nuclear genomes
   description: >-
-    We translate quantitative understanding into more efficient cells and
-    processes. Our work includes mitochondrial engineering through mtDNA
-    editing in <em>Saccharomyces cerevisiae</em>, and nuclear-genome
-    engineering coupled with mitochondrial targeting sequences. We develop and
-    characterize yeast and animal cell factories under process-relevant
-    conditions.
+    We engineer mitochondrial function to create more efficient cells and
+    processes. Our work includes mtDNA editing in <em>Saccharomyces
+    cerevisiae</em>, engineering nuclear-encoded mitochondrial proteins, and
+    using mitochondrial targeting sequences. We develop and characterize yeast
+    and animal cell factories under process-relevant conditions.

@@ -1,8 +1,8 @@
 title: BioEfficiency Lab
 description: >-
-  The BioEfficiency Lab at TU Delft studies quantitative metabolism,
-  bioenergetics and bioengineering across biological scales.
-url: "mvieiralara.github.io"
+  The BioEfficiency Lab at TU Delft studies bioenergetics, quantitative
+  physiology and mitochondrial engineering across biological scales.
+url: "https://mvieiralara.github.io"
 baseurl: ""
 
 markdown: kramdown
@@ -23,3 +23,9 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - vendor
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /images/banner.png

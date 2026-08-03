@@ -1,38 +1,16 @@
 ---
-layout: default
-title: Positions
-nav: positions
-description: Positions and student projects in the BioEfficiency Lab.
+layout: null
+permalink: /positions/
 ---
-
-<section class="post">
-  <header class="major">
-    <span class="date">Join us</span>
-    <p>
-      We welcome researchers and students interested in quantitative metabolism,
-      bioenergetics and bioengineering.
-    </p>
-  </header>
-
-  <div class="row">
-    <div class="col-6 col-12-small">
-      <h2>PhD and postdoctoral researchers</h2>
-      <p>
-        Funded vacancies are advertised through TU Delft. Strong candidates may
-        also contact us to discuss fellowship ideas or future opportunities.
-      </p>
-    </div>
-
-    <div class="col-6 col-12-small">
-      <h2>MSc and BSc students</h2>
-      <p>
-        Projects range from mitochondrial engineering and respirometry to
-        bioreactor physiology, modelling and mammalian-cell metabolism.
-      </p>
-    </div>
-  </div>
-
-  <ul class="actions special">
-    <li><a href="mailto:{{ site.author.email }}" class="button large">Contact us</a></li>
-  </ul>
-</section>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="refresh" content="0; url={{ '/contact/#join-the-lab' | relative_url }}" />
+    <link rel="canonical" href="{{ '/contact/#join-the-lab' | absolute_url }}" />
+    <title>Redirecting to opportunities</title>
+  </head>
+  <body>
+    <p>The Positions page has moved. <a href="{{ '/contact/#join-the-lab' | relative_url }}">View opportunities</a>.</p>
+  </body>
+</html>

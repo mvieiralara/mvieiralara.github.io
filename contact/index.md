@@ -2,15 +2,16 @@
 layout: default
 title: Contact
 nav: contact
-description: Contact the BioEfficiency Lab at TU Delft.
+description: Contact the BioEfficiency Lab at TU Delft about collaborations, student projects and opportunities.
 ---
 
 <section class="post">
+  <h1 class="visually-hidden">Contact and opportunities</h1>
   <header class="major">
     <span class="date">TU Delft</span>
     <p>
-      Contact us about research collaborations, student projects and prospective
-      positions.
+      Contact us about research collaborations, student projects, funded
+      vacancies and fellowship opportunities.
     </p>
   </header>
 
@@ -36,4 +37,46 @@ description: Contact the BioEfficiency Lab at TU Delft.
       <p>Building 58 · Room B0.370</p>
     </div>
   </div>
+
+  <div class="contact-map">
+    <iframe
+      src="https://www.google.com/maps?q=Van%20der%20Maasweg%209%2C%202629%20HZ%20Delft%2C%20The%20Netherlands&amp;output=embed"
+      title="Map showing the BioEfficiency Lab at Van der Maasweg 9 in Delft"
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+      allowfullscreen>
+    </iframe>
+    <p><a href="https://maps.app.goo.gl/narQ2PBioiTwbUWY8" target="_blank" rel="noopener">Open in Google Maps</a></p>
+  </div>
+</section>
+
+<section class="post lab-section" id="join-the-lab">
+  <header class="major section-heading">
+    <span class="date">Opportunities</span>
+    <h2>Join the lab</h2>
+    <p>
+      We welcome researchers and students interested in bioenergetics,
+      quantitative physiology and mitochondrial engineering.
+    </p>
+  </header>
+
+  <div class="join-grid">
+    <article>
+      <h3>Funded vacancies</h3>
+      <p>Open PhD, postdoctoral and technical positions are advertised through TU Delft when available.</p>
+    </article>
+    <article>
+      <h3>Student projects</h3>
+      <p>MSc and BSc projects may be available across mitochondrial engineering, respirometry, bioreactor physiology and animal-cell metabolism.</p>
+    </article>
+    <article>
+      <h3>Postdoctoral fellowships</h3>
+      <p>Strong candidates are welcome to contact us about fellowship ideas and future opportunities.</p>
+    </article>
+  </div>
+
+  <p class="join-contact">
+    To express interest, email <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>
+    with your CV and a short description of your research interests.
+  </p>
 </section>

@@ -6,6 +6,7 @@ description: News from the BioEfficiency Lab.
 ---
 
 <section class="post">
+  <h1 class="visually-hidden">News</h1>
   <header class="major">
     <span class="date">From the lab</span>
     <p>

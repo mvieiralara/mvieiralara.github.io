@@ -2,15 +2,16 @@
 layout: default
 title: Team
 nav: team
-description: Members of the BioEfficiency Lab.
+description: Researchers in bioenergetics, quantitative physiology and mitochondrial engineering at the BioEfficiency Lab.
 ---
 
 <section class="post">
+  <h1 class="visually-hidden">Team</h1>
   <header class="major">
     <span class="date">People</span>
     <p>
-      A multidisciplinary group working across genes, microorganisms, animal cells,
-      and bioreactors.
+      A multidisciplinary group working across genes, mitochondria, yeast,
+      animal cells and bioreactors.
     </p>
   </header>
 
@@ -23,8 +24,10 @@ description: Members of the BioEfficiency Lab.
         {% for person in category_members %}
           <article class="person-card">
             <span class="image fit portrait">
-              <img src="{{ '/images/' | append: person.photo | relative_url }}"
-                   alt="{{ person.name }}" />
+              {% assign person_photo = person.optimized_photo | default: person.photo %}
+              <img src="{{ '/images/' | append: person_photo | relative_url }}"
+                   alt="Portrait of {{ person.name }}" loading="lazy"
+                   decoding="async" />
             </span>
             <div class="person-details">
               <header>

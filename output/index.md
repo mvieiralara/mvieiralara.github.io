@@ -2,20 +2,21 @@
 layout: default
 title: Output
 nav: output
-description: Research output from the BioEfficiency Lab.
+description: Selected publications and patents from the BioEfficiency Lab.
 ---
 
 <section class="post">
+  <h1 class="visually-hidden">Research output</h1>
   <header class="major">
     <span class="date">Research outputs</span>
     <p>
-      Research connecting fundamental metabolism, quantitative biology and
-      sustainable biotechnology.
+      Research connecting bioenergetics, quantitative physiology and
+      mitochondrial engineering.
     </p>
   </header>
 
   <header class="major section-heading">
-    <h2>Publications</h2>
+    <h2>Selected publications</h2>
   </header>
 
   <div class="publication-list">

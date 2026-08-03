@@ -2,41 +2,30 @@
 layout: default
 title: Resources
 nav: resources
-description: Research resources from the BioEfficiency Lab.
+description: Forthcoming open-science resources from the BioEfficiency Lab.
 ---
 
 <section class="post">
+  <h1 class="visually-hidden">Resources</h1>
   <header class="major">
     <span class="date">Open science</span>
     <p>
-      Protocols, tools and supporting materials for mitochondrial bioenergetics,
-      quantitative physiology and bioengineering.
+      Protocols, tools and supporting materials for bioenergetics, quantitative
+      physiology and mitochondrial engineering.
     </p>
   </header>
 
-  <div class="posts">
-    <article>
-      <header><h2>Protocols</h2></header>
-      <p>
-        Experimental workflows and practical guidance developed for our
-        research will be shared here.
-      </p>
-    </article>
-
-    <article>
-      <header><h2>Data and software</h2></header>
-      <p>
-        Reusable datasets, analysis tools and models accompanying our work will
-        be collected here.
-      </p>
-    </article>
-
-    <article>
-      <header><h2>Teaching materials</h2></header>
-      <p>
-        Selected materials for learning about microbial physiology, metabolism
-        and bioprocess design will be made available here.
-      </p>
-    </article>
+  <div class="resource-status">
+    <h2>Materials in preparation</h2>
+    <p>
+      We are preparing reusable protocols, datasets and analytical tools. As
+      they become available, they will be organized under our three research
+      pillars.
+    </p>
+    <ol class="resource-pillars">
+      <li>Bioenergetics</li>
+      <li>Quantitative Physiology</li>
+      <li>Mitochondrial Engineering</li>
+    </ol>
   </div>
 </section>
