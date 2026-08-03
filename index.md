@@ -8,7 +8,7 @@ description: The BioEfficiency Lab at TU Delft studies bioenergetics, quantitati
 <article class="post featured">
   <header class="major">
     <span class="date">The group</span>
-    <h2>Understanding and designing<br />biological efficiency</h2>
+    <h2>Understanding and designing<br /> biological efficiency</h2>
     <p>
       We study biological efficiency across scales by investigating how cells
       conserve and allocate energy. Our work combines bioenergetics,
