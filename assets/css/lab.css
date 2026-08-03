@@ -382,6 +382,44 @@ header.major > .date {
   text-align: left;
 }
 
+.person-actions {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  gap: 0.75rem;
+  align-items: start;
+  margin-top: 1.25rem;
+}
+
+.person-about-details {
+  min-width: 0;
+}
+
+.person-about-details summary {
+  display: inline-block;
+  list-style: none;
+  cursor: pointer;
+}
+
+.person-about-details summary::-webkit-details-marker {
+  display: none;
+}
+
+.person-about-details[open] summary {
+  margin-bottom: 1rem;
+}
+
+.person-about-copy {
+  padding: 1.25rem;
+  border-left: solid 4px var(--lab-accent);
+  background: var(--lab-soft);
+}
+
+.person-about-copy p {
+  margin: 0;
+  text-align: left;
+  line-height: 1.65;
+}
+
 .alumni-section {
   margin-top: 2rem;
 }
@@ -521,9 +559,10 @@ header.major > .date {
 }
 
 .cross-cutting-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0 3rem;
   margin: 0;
-  columns: 2;
-  column-gap: 3rem;
 }
 
 .cross-cutting-list li {
@@ -531,6 +570,11 @@ header.major > .date {
   margin: 0;
   padding: 0.15rem 0;
   line-height: 1.55;
+}
+
+.cross-cutting-list .experimental-systems {
+  grid-column: 1 / -1;
+  margin-top: 0.25rem;
 }
 
 .resource-status {
@@ -683,7 +727,11 @@ header.major > .date {
   }
 
   .cross-cutting-list {
-    columns: 1;
+    grid-template-columns: 1fr;
+  }
+
+  .cross-cutting-list .experimental-systems {
+    grid-column: auto;
   }
 }
 

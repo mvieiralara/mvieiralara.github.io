@@ -80,6 +80,7 @@ description: The BioEfficiency Lab at TU Delft studies bioenergetics, quantitati
     <li><strong>Metabolic diversity:</strong> systems-level understanding of distinct metabolic strategies.</li>
     <li><strong>Advanced off-gas analysis:</strong> quantitative cultivation beyond conventional O<sub>2</sub> and CO<sub>2</sub> measurements.</li>
     <li><strong>Bioprocess development:</strong> translation to process-relevant conditions and scale-up.</li>
+    <li class="experimental-systems"><strong>Experimental systems:</strong> diverse yeasts, including <em>S. cerevisiae</em>, <em>C. jadinii</em> and <em>O. parapolymorpha</em>, alongside CHO cells and bovine satellite cells.</li>
   </ul>
 </section>
 
@@ -111,7 +112,7 @@ description: The BioEfficiency Lab at TU Delft studies bioenergetics, quantitati
   <div class="row">
     <div class="col-4 col-12-small">
       <h3><a href="{{ '/team/' | relative_url }}">People</a></h3>
-      <p>Meet the researchers and students working across genes, mitochondria, yeast, animal cells and bioreactors.</p>
+      <p>Meet the researchers and students working across genes, mitochondria, yeasts, animal cells and bioreactors.</p>
     </div>
     <div class="col-4 col-12-small">
       <h3><a href="{{ '/output/' | relative_url }}">Output</a></h3>

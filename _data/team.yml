@@ -4,6 +4,19 @@
   photo: Marcel.jpg
   optimized_photo: optimized/Marcel.jpg
   email: M.A.VieiraLara@tudelft.nl
+  about: >-
+    I was born and raised on a coffee farm in southern Minas Gerais, Brazil.
+    Growing up surrounded by nature sparked my curiosity about life at the
+    macroscopic scale. During my studies, that curiosity evolved into a desire
+    to understand life at the cellular and molecular scales. I am fascinated by
+    how cells conserve and allocate energy, and by the diversity of metabolic
+    solutions found in nature. My work connects fundamental bioenergetics with
+    quantitative physiology and mitochondrial engineering, addressing
+    fundamental questions while enabling applications in biotechnology. I value
+    curiosity, collaboration, open communication and an environment that
+    welcomes new ideas. I aim to cultivate an open and collaborative scientific
+    environment where curiosity is encouraged, different perspectives are
+    valued and people feel free to be themselves.
   education:
     - Postdoc Industrial Microbiology, TU Delft, The Netherlands
     - Ph.D. Systems Biology, University of Groningen, The Netherlands
@@ -36,7 +49,7 @@
   education:
     - M.Sc. Life Sciences and Technology, TU Delft, The Netherlands
     - B.Sc. Life Science and Technology, TU Delft, The Netherlands
-  description: Ethanol-fuelled yeast biotechnology.
+  description: Ethanol-fuelled biotechnology with yeasts.
 
 - name: Gabriela van Leersum
   role: PhD Candidate
@@ -45,7 +58,7 @@
   education:
     - M.Sc. Life Sciences and Technology, TU Delft, The Netherlands
     - B.Sc. Life Science and Technology, TU Delft, The Netherlands
-  description: Energetics of yeast metabolism and trade-offs.
+  description: Energetics and trade-offs of metabolism in yeasts.
 
 - name: Jelle Hoek
   role: PhD Candidate
@@ -64,7 +77,7 @@
     - M.Sc. Biomolecular Sciences, University of Groningen, The Netherlands
     - M.A. Philosophy, Science and Humanities, University of Groningen, The Netherlands
     - B.Sc. Biotechnology, Beuth University of Applied Science, Germany
-  description: Engineering yeast mitochondrial DNA for energetic efficiency.
+  description: Engineering mitochondrial DNA in yeasts for energetic efficiency.
 
 - name: Tom Koelmans
   role: PhD Candidate

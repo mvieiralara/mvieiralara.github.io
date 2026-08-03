@@ -10,7 +10,7 @@ description: Researchers in bioenergetics, quantitative physiology and mitochond
   <header class="major">
     <span class="date">People</span>
     <p>
-      A multidisciplinary group working across genes, mitochondria, yeast,
+      A multidisciplinary group working across genes, mitochondria, yeasts,
       animal cells and bioreactors.
     </p>
   </header>
@@ -53,10 +53,20 @@ description: Researchers in bioenergetics, quantitative physiology and mitochond
                 </div>
               {% endif %}
 
-              {% if person.email %}
-                <ul class="actions">
-                  <li><a href="mailto:{{ person.email }}" class="button small">Email</a></li>
-                </ul>
+              {% if person.email or person.about %}
+                <div class="person-actions">
+                  {% if person.email %}
+                    <a href="mailto:{{ person.email }}" class="button small">Email</a>
+                  {% endif %}
+                  {% if person.about %}
+                    <details class="person-about-details">
+                      <summary class="button small">About me</summary>
+                      <div class="person-about-copy">
+                        <p>{{ person.about }}</p>
+                      </div>
+                    </details>
+                  {% endif %}
+                </div>
               {% endif %}
             </div>
           </article>
