@@ -25,6 +25,12 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 0.02em;
 }
 
+#intro p,
+#main p,
+#footer p {
+  line-height: 1.55;
+}
+
 /* Header logo: normal case */
 #header .logo {
   text-transform: none;
