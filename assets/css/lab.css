@@ -481,6 +481,15 @@ header.major > .date {
   margin-bottom: 0;
 }
 
+.news-grid h2,
+.news-grid h3 {
+  font-family: "Merriweather", Georgia, serif;
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 1.6;
+  letter-spacing: 0;
+}
+
 .news-grid article:hover,
 .publication-list article:hover {
   transform: translateY(-4px);
