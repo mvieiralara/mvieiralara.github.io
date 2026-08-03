@@ -1,0 +1,21 @@
+msc_graduates:
+  - date: 2026/05
+    name: Nienke Franken
+    details: LST Master, TU Delft
+  - date: 2025/08
+    name: Abel Tordai
+    details: LST Master, TU Delft
+  - date: 2025/07
+    name: Tiago Lopes da Silva
+    details: Erasmus, Instituto Superior Técnico Lisbon, Portugal
+  - date: 2025/05
+    name: Shaughn Lie-Tjauw
+    details: LST Master, TU Delft
+  - date: 2024/05
+    name: Laura Koerts
+    details: LST Master, TU Delft
+
+guest_researchers:
+  - date: 2024
+    name: Mohamed Almarei
+    details: PhD candidate with Prof. Rodrigo Ledesma-Amaro, Imperial College London, UK

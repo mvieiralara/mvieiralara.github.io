@@ -11,8 +11,8 @@ description: Contact the BioEfficiency Lab at TU Delft about collaborations, stu
     <span class="date">Opportunities</span>
     <h2>Join the lab</h2>
     <p>
-      We welcome researchers and students interested in bioenergetics,
-      quantitative physiology and mitochondrial engineering.
+      Contact us about research collaborations, student projects, funded
+      vacancies and fellowship opportunities.
     </p>
   </header>
 
@@ -36,20 +36,12 @@ description: Contact the BioEfficiency Lab at TU Delft about collaborations, stu
   </div>
 
   <p class="join-contact">
-    To express interest, email <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>
+    To express interest, <a href="mailto:{{ site.author.email }}">contact me</a>
     with your CV and a short description of your research interests.
   </p>
 </section>
 
 <section class="post lab-section">
-  <header class="major section-heading">
-    <span class="date">TU Delft</span>
-    <p>
-      Contact us about research collaborations, student projects, funded
-      vacancies and fellowship opportunities.
-    </p>
-  </header>
-
   <div class="row">
     <div class="col-6 col-12-small">
       <h2>Marcel Vieira-Lara</h2>
@@ -61,7 +53,8 @@ description: Contact the BioEfficiency Lab at TU Delft about collaborations, stu
       <p><a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></p>
       <h3 class="contact-languages-heading">Languages</h3>
       <p class="contact-languages">
-        You are welcome to email me in Portuguese, English, Dutch or Spanish.
+        You are welcome to email me in<br />
+        Portuguese, English, Dutch or Spanish.
       </p>
     </div>
 

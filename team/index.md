@@ -64,4 +64,32 @@ description: Researchers in bioenergetics, quantitative physiology and mitochond
       </div>
     {% endif %}
   {% endfor %}
+
+  <section class="alumni-section">
+    <h2 class="team-category">Alumni</h2>
+
+    <div class="alumni-group alumni-graduates">
+      <h3>MSc graduates</h3>
+      <ul>
+        {% for person in site.data.alumni.msc_graduates %}
+          <li>
+            <span class="alumni-date">{{ person.date }}</span>
+            <span>{{ person.name }}{% if person.details %} ({{ person.details }}){% endif %}</span>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+
+    <div class="alumni-group alumni-guests">
+      <h3>Guest researchers</h3>
+      <ul>
+        {% for person in site.data.alumni.guest_researchers %}
+          <li>
+            <span class="alumni-date">{{ person.date }}</span>
+            <span>{{ person.name }}{% if person.details %} ({{ person.details }}){% endif %}</span>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </section>
 </section>

@@ -372,6 +372,45 @@ header.major > .date {
   text-align: left;
 }
 
+.alumni-section {
+  margin-top: 2rem;
+}
+
+.alumni-group {
+  margin: 0 0 0.75rem;
+  padding: 1rem 1.25rem;
+  border-left: solid 4px var(--lab-accent);
+  background: var(--lab-soft);
+}
+
+.alumni-group h3 {
+  margin: 0 0 0.35rem;
+  font-size: 1rem;
+}
+
+.alumni-group ul {
+  margin: 0;
+  list-style: none;
+}
+
+.alumni-group li {
+  display: flex;
+  gap: 0.65rem;
+  margin: 0;
+  padding: 0.1rem 0;
+  line-height: 1.4;
+}
+
+.alumni-date {
+  flex: 0 0 4.25rem;
+  color: #717981;
+  font-variant-numeric: tabular-nums;
+}
+
+.alumni-guests {
+  border-left-color: #7b2d8e;
+}
+
 .news-grid article,
 .publication-list article {
   border: solid 1px var(--lab-border);
@@ -459,7 +498,6 @@ header.major > .date {
 
 .cross-cutting-section {
   padding: 2.25rem 4rem !important;
-  border-top: solid 2px var(--lab-border);
 }
 
 .cross-cutting-section h2 {
@@ -638,5 +676,14 @@ header.major > .date {
   .person-card .portrait {
     width: 11rem;
     margin: 0 auto;
+  }
+
+  .alumni-group li {
+    display: block;
+  }
+
+  .alumni-date {
+    display: inline-block;
+    margin-right: 0.35rem;
   }
 }
