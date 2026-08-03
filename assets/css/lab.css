@@ -225,16 +225,6 @@ header.major > .date {
   margin: 0;
 }
 
-.pillar-mode {
-  margin: -0.6rem 0 0.75rem;
-  color: var(--lab-accent);
-  font-family: "Source Sans Pro", Helvetica, sans-serif;
-  font-size: 0.78rem;
-  font-weight: 700;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-}
-
 .pillar-inline-icon {
   display: inline-grid;
   flex: 0 0 3rem;

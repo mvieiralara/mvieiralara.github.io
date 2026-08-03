@@ -50,13 +50,6 @@ description: The BioEfficiency Lab at TU Delft studies bioenergetics, quantitati
             <span class="pillar-inline-icon icon solid {{ pillar.icon }}"
                   aria-hidden="true"></span>
           </header>
-          <p class="pillar-mode">
-            {% case pillar.number %}
-              {% when "I" %}Understand
-              {% when "II" %}Measure
-              {% when "III" %}Engineer
-            {% endcase %}
-          </p>
           <p>{{ pillar.description }}</p>
         </div>
         <figure class="pillar-image">
