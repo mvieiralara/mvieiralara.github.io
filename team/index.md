@@ -46,13 +46,6 @@ description: Researchers in bioenergetics, quantitative physiology and mitochond
                 </div>
               {% endif %}
 
-              {% if person.languages %}
-                <div class="person-languages">
-                  <h3>Languages</h3>
-                  <p>{{ person.languages | join: " · " }}</p>
-                </div>
-              {% endif %}
-
               {% if person.description %}
                 <div class="person-project">
                   <h3>Project</h3>

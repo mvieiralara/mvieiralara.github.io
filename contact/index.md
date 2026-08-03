@@ -24,6 +24,11 @@ description: Contact the BioEfficiency Lab at TU Delft about collaborations, stu
         Faculty of Applied Sciences
       </p>
       <p><a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></p>
+      <h3 class="contact-languages-heading">Languages</h3>
+      <p class="contact-languages">
+        You are welcome to email me in Portuguese, English, Dutch or Spanish.<br />
+        <strong>Portuguese · English · Dutch · Spanish</strong>
+      </p>
     </div>
 
     <div class="col-6 col-12-small">
