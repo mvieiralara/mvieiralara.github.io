@@ -19,13 +19,7 @@ description: Forthcoming open-science resources from the BioEfficiency Lab.
     <h2>Materials in preparation</h2>
     <p>
       We are preparing reusable protocols, datasets and analytical tools. As
-      they become available, they will be organized under our three research
-      pillars.
+      they become available, they will be available on this page.
     </p>
-    <ol class="resource-pillars">
-      <li>Bioenergetics</li>
-      <li>Quantitative Physiology</li>
-      <li>Mitochondrial Engineering</li>
-    </ol>
   </div>
 </section>

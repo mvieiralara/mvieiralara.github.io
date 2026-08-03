@@ -17,9 +17,9 @@
   description: >-
     We quantify how yeast and animal cells distribute resources and energy
     according to culture conditions and alternative feedstocks. Through
-    controlled cultivation, extended off-gas analysis beyond O<sub>2</sub> and
-    CO<sub>2</sub>, and analytical, quantitative analyses, we identify the
-    principles behind cellular rates, yields and trade-offs.
+    controlled cultivation, off-gas analysis, and analytical, quantitative
+    analyses, we identify the principles behind cellular rates, yields and
+    trade-offs.
 
 - number: "III"
   title: Mitochondrial Engineering
@@ -27,8 +27,7 @@
   image: bioengineering.png
   image_alt: Mitochondrial engineering through mitochondrial and nuclear genomes
   description: >-
-    We engineer mitochondrial function to create more efficient cells and
-    processes. Our work includes mtDNA editing in <em>Saccharomyces
-    cerevisiae</em>, engineering nuclear-encoded mitochondrial proteins, and
-    using mitochondrial targeting sequences. We develop and characterize yeast
-    and animal cell factories under process-relevant conditions.
+    We engineer mitochondrial function to understand energy metabolism and
+    design more efficient cells and processes. Our work includes mtDNA editing
+    in <em>Saccharomyces cerevisiae</em>, and engineering nuclear-encoded
+    mitochondrial proteins in yeasts and animal cells.

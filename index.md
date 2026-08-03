@@ -11,7 +11,7 @@ description: The BioEfficiency Lab at TU Delft studies bioenergetics, quantitati
     <h2>Understanding and designing<br />biological efficiency</h2>
     <p>
       We study biological efficiency across scales by investigating how cells
-      conserve, allocate and engineer energy. Our work combines bioenergetics,
+      conserve and allocate energy. Our work combines bioenergetics,
       quantitative physiology and mitochondrial engineering, connecting
       fundamental mechanisms with cell-factory and bioprocess applications.
     </p>
@@ -75,10 +75,6 @@ description: The BioEfficiency Lab at TU Delft studies bioenergetics, quantitati
 
 <section class="cross-cutting-section">
   <h2>Across the pillars</h2>
-  <p>
-    We investigate yeast and animal cells under alternative feedstocks and
-    process-relevant cultivation conditions.
-  </p>
   <ul class="cross-cutting-list">
     <li><strong>Alternative feedstocks:</strong> diverse carbon and nutrient sources for sustainable biotechnology.</li>
     <li><strong>Metabolic diversity:</strong> systems-level understanding of distinct metabolic strategies.</li>
