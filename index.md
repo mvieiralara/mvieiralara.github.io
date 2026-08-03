@@ -73,33 +73,18 @@ description: The BioEfficiency Lab at TU Delft studies bioenergetics, quantitati
   </div>
 </section>
 
-<section class="post lab-section cross-cutting-section">
-  <header class="major section-heading">
-    <span class="date">Across the pillars</span>
-    <h2>Cross-cutting themes</h2>
-    <p>
-      Across these pillars, we investigate yeast and animal cells under
-      alternative feedstocks and process-relevant cultivation conditions.
-    </p>
-  </header>
-  <div class="cross-cutting-grid">
-    <article>
-      <h3>Alternative feedstocks</h3>
-      <p>Sustainable biotechnology using diverse carbon and nutrient sources.</p>
-    </article>
-    <article>
-      <h3>Metabolic diversity</h3>
-      <p>Systems-level understanding of distinct metabolic strategies.</p>
-    </article>
-    <article>
-      <h3>Advanced off-gas analysis</h3>
-      <p>Quantitative cultivation beyond conventional O<sub>2</sub> and CO<sub>2</sub> measurements.</p>
-    </article>
-    <article>
-      <h3>Bioprocess development</h3>
-      <p>Translation from controlled experiments to process-relevant conditions and scale-up.</p>
-    </article>
-  </div>
+<section class="cross-cutting-section">
+  <h2>Across the pillars</h2>
+  <p>
+    We investigate yeast and animal cells under alternative feedstocks and
+    process-relevant cultivation conditions.
+  </p>
+  <ul class="cross-cutting-list">
+    <li><strong>Alternative feedstocks:</strong> diverse carbon and nutrient sources for sustainable biotechnology.</li>
+    <li><strong>Metabolic diversity:</strong> systems-level understanding of distinct metabolic strategies.</li>
+    <li><strong>Advanced off-gas analysis:</strong> quantitative cultivation beyond conventional O<sub>2</sub> and CO<sub>2</sub> measurements.</li>
+    <li><strong>Bioprocess development:</strong> translation to process-relevant conditions and scale-up.</li>
+  </ul>
 </section>
 
 {% include funding.html %}
