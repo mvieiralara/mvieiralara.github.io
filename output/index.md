@@ -9,10 +9,6 @@ description: Selected publications and patents from the BioEfficiency Lab.
   <h1 class="visually-hidden">Research output</h1>
   <header class="major">
     <span class="date">Research outputs</span>
-    <p>
-      Research connecting bioenergetics, quantitative physiology and
-      mitochondrial engineering.
-    </p>
   </header>
 
   <header class="major section-heading">

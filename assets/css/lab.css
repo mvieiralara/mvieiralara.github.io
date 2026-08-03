@@ -190,6 +190,11 @@ header.major > .date {
   border-top: solid 2px var(--lab-border);
 }
 
+.pillars-title {
+  margin: 2rem 0 0;
+  text-align: center;
+}
+
 .pillar-row {
   display: grid;
   grid-template-columns: minmax(0, 1.1fr) minmax(20rem, 0.9fr);

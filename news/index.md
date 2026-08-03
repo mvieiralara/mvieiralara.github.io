@@ -9,10 +9,6 @@ description: News from the BioEfficiency Lab.
   <h1 class="visually-hidden">News</h1>
   <header class="major">
     <span class="date">From the lab</span>
-    <p>
-      Updates on new colleagues, research projects and activities from the
-      BioEfficiency Lab.
-    </p>
   </header>
 
   <div class="news-grid">

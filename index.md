@@ -38,14 +38,10 @@ description: The BioEfficiency Lab at TU Delft studies bioenergetics, quantitati
       <img src="{{ '/images/banner.png' | relative_url }}"
            alt="From genes and cellular energy systems to quantitative models, engineered cells and bioreactors" />
     </figure>
-    <h2>Three complementary pillars</h2>
-    <p>
-      Our projects connect first-principles understanding with quantitative
-      measurement and purposeful biological design.
-    </p>
   </header>
 
   <div class="pillar-rows">
+    <h2 class="pillars-title">Three complementary pillars</h2>
     {% for pillar in site.data.research %}
       <article class="pillar-row">
         <div class="pillar-copy">
