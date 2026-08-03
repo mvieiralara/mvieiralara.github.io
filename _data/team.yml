@@ -5,8 +5,9 @@
   optimized_photo: optimized/Marcel.jpg
   email: M.A.VieiraLara@tudelft.nl
   about: >-
-    I was born and raised on a coffee farm in southern Minas Gerais, Brazil.
-    Growing up surrounded by nature sparked my curiosity about life at the
+    I was born and raised in the countryside of southern Minas Gerais, Brazil,
+    where my family grew coffee and produced honey. Growing up surrounded by
+    nature sparked my curiosity about life at the
     macroscopic scale. During my studies, that curiosity evolved into a desire
     to understand life at the cellular and molecular scales. I am fascinated by
     how cells conserve and allocate energy, and by the diversity of metabolic
@@ -26,6 +27,7 @@
   role: Postdoctoral Researcher
   category: Postdoctoral Researchers
   photo: Marc.jpeg
+  email: m.p.pedersen@tudelft.nl
   education:
     - Ph.D. Molecular Cell Biology, University of Groningen, The Netherlands
     - M.Sc. Biotechnology, University of Copenhagen, Denmark
@@ -36,6 +38,7 @@
   role: Postdoctoral Researcher
   category: Postdoctoral Researchers
   photo: Sagarika.png
+  email: S.BangaloreGovindaraju@tudelft.nl
   education:
     - Ph.D. Industrial Microbiology, TU Delft, The Netherlands
     - M.Sc. Life Sciences and Technology, TU Delft, The Netherlands
@@ -46,6 +49,7 @@
   role: PhD Candidate
   category: PhD Candidates
   photo: Marieke.jpeg
+  email: M.Warmerdam@tudelft.nl
   education:
     - M.Sc. Life Sciences and Technology, TU Delft, The Netherlands
     - B.Sc. Life Science and Technology, TU Delft, The Netherlands
@@ -55,6 +59,7 @@
   role: PhD Candidate
   category: PhD Candidates
   photo: Gabi.png
+  email: g.vanleersum-1@tudelft.nl
   education:
     - M.Sc. Life Sciences and Technology, TU Delft, The Netherlands
     - B.Sc. Life Science and Technology, TU Delft, The Netherlands
@@ -64,6 +69,7 @@
   role: PhD Candidate
   category: PhD Candidates
   photo: Jelle.jpeg
+  email: j.c.hoek@tudelft.nl
   education:
     - M.Sc. Life Sciences and Technology, TU Delft, The Netherlands
     - B.Sc. Life Science and Technology, TU Delft, The Netherlands
@@ -73,6 +79,7 @@
   role: PhD Candidate
   category: PhD Candidates
   photo: Malte.png
+  email: m.l.marquardt@tudelft.nl
   education:
     - M.Sc. Biomolecular Sciences, University of Groningen, The Netherlands
     - M.A. Philosophy, Science and Humanities, University of Groningen, The Netherlands
@@ -84,6 +91,7 @@
   category: PhD Candidates
   photo: Tom.jpg
   optimized_photo: optimized/Tom.jpg
+  email: t.o.m.koelmans@tudelft.nl
   education:
     - M.Sc. Life Sciences and Technology, TU Delft, The Netherlands
     - B.Sc. Life Science and Technology, TU Delft, The Netherlands
@@ -93,15 +101,27 @@
   role: PhD Candidate
   category: PhD Candidates
   photo: Marcus.jpg
+  email: m.a.young@tudelft.nl
   education:
     - M.Eng. Bioengineering, University of Sheffield, United Kingdom
     - B.Sc. Psychology, University of Wollongong, Australia
   description: Oxygen-dependent mammalian-cell metabolism and ATP economy.
 
+- name: Yared Pijman
+  role: PhD Candidate
+  category: PhD Candidates
+  photo: Yared.png
+  email: Y.O.Pijman-1@tudelft.nl
+  education:
+    - M.Sc. Life Sciences and Technology, TU Delft, The Netherlands
+    - B.Sc. Life Science and Technology, TU Delft, The Netherlands
+  description: Renewable feedstock metabolism in non-conventional yeasts.
+
 - name: Lucas Garbini Cespedes
   role: PhD Candidate (Dual Degree TU Delft/Unicamp)
   category: PhD Candidates
   photo: Lucas.png
+  email: L.GarbiniCespedes@tudelft.nl
   education:
     - M.Sc. Biotechnology, University of São Paulo, Brazil
     - B.Sc. Biological Sciences, University of São Paulo, Brazil
@@ -111,6 +131,7 @@
   role: Research Technician
   category: Technicians
   photo: Abba.png
+  email: A.U.Saleh@tudelft.nl
   education:
     - Ph.D. Physics, Tampere University, Finland
     - M.Sc. Materials Science and nanotechnology, Bilkent University, Turkey
